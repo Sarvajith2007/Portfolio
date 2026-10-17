@@ -57,7 +57,7 @@ const pages = [
       <div class="cover-main">
         <span class="eyebrow"><span class="eyebrow-rule"></span> ENGINEERING PORTFOLIO</span>
         <h1>Adi Sarvajith<br><em>Rayudu.</em></h1>
-        <p class="cover-lead">Building useful digital products at the intersection of <strong>web development, back-end systems and AI.</strong></p>
+        <p class="cover-lead">Building practical web products while developing toward <strong>back-end and AI engineering.</strong></p>
       </div>
       <div class="cover-footer">
         <div><span class="micro-label">CURRENTLY</span><strong>Computer science student</strong><span>VBIT · 2024–2028</span></div>
