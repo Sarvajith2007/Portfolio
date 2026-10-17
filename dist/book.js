@@ -118,7 +118,7 @@ const pages = [
       <span class="contact-pretitle">THANK YOU FOR READING</span>
       <h2>Let’s discuss<br><em>what I can build next.</em></h2>
       <p class="contact-copy">I am seeking opportunities to grow in back-end and AI engineering, contribute to meaningful products, and learn from strong teams.</p>
-      <div class="contact-list"><a href="mailto:asarvajithrayudu@gmail.com"><span>EMAIL</span><strong>asarvajithrayudu@gmail.com</strong><span aria-hidden="true">↗</span></a><a href="tel:+919849300139"><span>PHONE</span><strong>+91 98493 00139</strong><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/sarvajith-rayudu-adi-4aa647381" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span><strong>View professional profile</strong><span aria-hidden="true">↗</span></a></div>
+      <div class="contact-list"><a href="mailto:asarvajithrayudu@gmail.com"><span>EMAIL</span><strong>asarvajithrayudu@gmail.com</strong><span aria-hidden="true">↗</span></a><a href="tel:+919849300139"><span>PHONE</span><strong>+91 98493 00139</strong><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/sarvajith-rayudu-adi-4aa647381" target="_blank" rel="noopener noreferrer"><span>LINKEDIN</span><strong>www.linkedin.com/in/sarvajith-rayudu-adi-4aa647381</strong><span aria-hidden="true">↗</span></a></div>
       <div class="contact-footer"><a class="text-link" href="./resume.html" target="_blank">PRINTABLE RESUME <span aria-hidden="true">↗</span></a><span>ADI SARVAJITH RAYUDU / HYDERABAD</span></div>
     </div>`
   }

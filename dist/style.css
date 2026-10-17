@@ -20,15 +20,12 @@ button { font: inherit; }
 button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 a { color: inherit; }
 .site-frame { min-height: 100dvh; max-width: 1680px; margin: 0 auto; padding: 0 clamp(18px, 3vw, 48px); display: flex; flex-direction: column; }
-.topbar { height: 80px; min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid #cbc9c2; }
+.topbar { position: relative; height: 80px; min-height: 80px; display: flex; align-items: center; gap: 20px; border-bottom: 1px solid #cbc9c2; }
 .wordmark { font-family: Georgia, "Times New Roman", serif; font-size: 1.62rem; font-weight: 700; letter-spacing: -.09em; text-decoration: none; }
 .wordmark-dot { color: var(--accent); }
-.topbar-label, .topbar-contact { font-size: .7rem; font-weight: 750; letter-spacing: .16em; }
-.topbar-label { color: #596979; }
+.topbar-label { position: absolute; left: 50%; transform: translateX(-50%); color: #596979; font-size: .7rem; font-weight: 750; letter-spacing: .16em; white-space: nowrap; }
 .topbar-label span { color: var(--accent); margin: 0 9px; }
-.topbar-contact { text-decoration: none; white-space: nowrap; }
-.topbar-contact span { color: var(--accent); font-size: 1rem; margin-left: 5px; }
-.topbar-contact:hover, .text-link:hover { color: var(--accent); }
+.text-link:hover { color: var(--accent); }
 .workspace { width: 100%; flex: 1; display: grid; grid-template-columns: 190px minmax(0, 1fr); column-gap: clamp(22px, 3.5vw, 60px); align-items: center; padding: 22px 0 15px; }
 .chapter-rail { height: 100%; min-height: 540px; display: flex; flex-direction: column; padding-top: 28px; }
 .rail-title, .rail-foot { color: #687684; font-size: .64rem; font-weight: 750; letter-spacing: .15em; }
@@ -185,7 +182,6 @@ a { color: inherit; }
 @media (max-width: 560px) {
   .site-frame { padding: 0 9px; }
   .topbar { padding: 0 5px; }
-  .topbar-contact { font-size: .6rem; }
   .book-meta { font-size: .59rem; }
   .book-bottom { font-size: .58rem; }
   .page { height: max(550px, calc(100dvh - 192px)); }
