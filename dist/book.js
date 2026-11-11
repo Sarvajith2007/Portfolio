@@ -99,7 +99,7 @@ const pages = [
       <div class="project-head"><span class="project-type">${escapeHtml(project.category)}</span><h2>${escapeHtml(project.name)}<span class="project-period">.</span></h2><p class="project-premise">${escapeHtml(project.premise)}</p></div>
       <div class="flow" aria-label="Conceptual product flow">${project.diagram.map((step, index) => `<div class="flow-node"><span>0${index + 1}</span><strong>${escapeHtml(step)}</strong></div>${index < project.diagram.length - 1 ? '<span class="flow-arrow" aria-hidden="true">→</span>' : ''}`).join('')}</div>
       <div class="project-facts"><div><span class="micro-label">THE PROBLEM</span><p>${escapeHtml(project.problem)}</p></div><div><span class="micro-label">THE PROJECT</span><p>${escapeHtml(project.product)}</p></div></div>
-      <div class="project-footer"><span class="project-focus"><span class="micro-label">PROJECT FOCUS</span> ${escapeHtml(project.focus)}</span>${externalLink(project.url, project.linkLabel)}</div>
+      <div class="project-footer"><span class="project-focus"><span class="micro-label">PROJECT FOCUS</span> ${escapeHtml(project.focus)}</span>${externalLink(project.url, project.linkLabel)}${project.number === '04' ? ` ${externalLink('https://youtu.be/CT5GAuBtvwY', 'VIDEO EXPLANATION')}` : ''}</div>
     </div>`
   })),
   {
